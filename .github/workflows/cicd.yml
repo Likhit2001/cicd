@@ -48,7 +48,7 @@ jobs:
 
         # step 2 set up Docker
     - name: Set Up Docker buildx
-      uses: docker/setup-buildx-action@v2
+      uses: docker/setup-buildx-action@v3
   
         # step 3 install dependencies 
     - name: Login to dockerhub
